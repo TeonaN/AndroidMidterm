@@ -28,7 +28,7 @@ class DataAdapter(private var types: List<Type>) :
         holder.itemView.fuelData.text = "Fuel: "+p.fuel
         holder.itemView.elData.text = "Electricity: "+p.electricity
         holder.itemView.waterData.text = "Water: "+p.water
-        holder.itemView.gasData.text = "Gas "+p.gas
+        holder.itemView.gasData.text = "Gas: "+p.gas
 
     }
 }
